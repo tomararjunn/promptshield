@@ -155,8 +155,7 @@ function HamburgerMenu({ isOpen, onToggle, isDark }: { isOpen: boolean; onToggle
 export default function Landing() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 1200);
-
+  const [, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 1200);
   useEffect(() => {
     const checkMobile = () => {
       const width = window.innerWidth;
