@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://promptshield-jet.vercel.app/sitemap.xml
