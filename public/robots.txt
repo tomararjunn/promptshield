@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://promptshield-jet.vercel.app/sitemap.xml
+Sitemap: https://promptkiller.online/sitemap.xml
